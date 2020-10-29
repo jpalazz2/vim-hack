@@ -12,6 +12,7 @@
 if exists("b:indent_loaded")
   finish
 end
+runtime! indent/php.vim
 let b:indent_loaded = 1
 
 setlocal indentexpr=GetHackIndent()
